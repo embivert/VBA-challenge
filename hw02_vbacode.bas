@@ -11,7 +11,7 @@ Sub hw02_vbachallenge()
     Dim vol As Long
     Dim ws_number As Integer
         ws_number = ActiveWorkbook.Worksheets.Count
-        MsgBox (ws_number & " worksheets")
+    MsgBox (ws_number & " worksheets"),VBinformation 'Added messagebox type so that user know that this is an information not an error
     
     
     ' variable to dynamically set the range for each raw data table
